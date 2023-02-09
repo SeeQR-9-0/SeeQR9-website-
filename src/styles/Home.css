@@ -1,5 +1,6 @@
 /* Navbar CSS */
 
+
 .Navbar {
   top: 0;
   position: sticky;
@@ -11,6 +12,18 @@
   background-color: #84A98C;
   box-shadow: 0 3px 10px -2px gray;
 }
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.center-nav ul li a {
+  font-size: 12px;
+}
+
 
 .logo {
   width: 100px;
@@ -25,6 +38,12 @@
   padding-right: 5rem;
   list-style: none;
 }
+
+.Navbar ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 
 .Navbar ul li a {
   color: #000;
@@ -155,7 +174,7 @@
   justify-content: center;
   align-items: left;
   flex-direction: column;
-  padding: 2rem 4rem 2rem 4rem;
+  /* padding: 2rem 4rem 2rem 4rem; */
   gap: 1rem;
 }
 
@@ -177,4 +196,12 @@
   .built-with {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .center-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+
 }

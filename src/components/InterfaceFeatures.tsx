@@ -10,7 +10,7 @@ export default function InterfaceFeatures() {
         <img src="media/config_demo2.gif" style={{width:'100%'}} alt="" />
       </div>
       <div className="RContainer">
-        <div className="applaunch-text">
+        <div className="applaunch-text" style={{padding: '1rem 3rem'}}>
           <h1>Application Launch</h1>
           <p>
             Upon application launch, navigate to the config menu by clicking on

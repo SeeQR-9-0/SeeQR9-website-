@@ -5,11 +5,11 @@
   position: sticky;
   font-weight: bold;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   width: 100%;
   background-color: #84A98C;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 3px 10px -2px gray;
 }
 
 .logo {

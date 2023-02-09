@@ -5,17 +5,16 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Team from './pages/Team';
 import './styles/Home.css';
+import SlideRoutes from 'react-slide-routes';
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
-        </Routes>
-      </div>
+      <SlideRoutes>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
+      </SlideRoutes>
     </>
   );
 }

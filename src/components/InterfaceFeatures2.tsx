@@ -4,7 +4,7 @@ export default function InterfaceFeatures2() {
   return (
     <div className="module">
       <div className="RContainer">
-        <div className="applaunch-text">
+        <div className="applaunch-text" style={{padding: '5rem 2rem'}}>
           <h2>Exporting Databases</h2>
           <p>Users can export any database onto their local machine.</p>
           <h2>Toggling Views</h2>

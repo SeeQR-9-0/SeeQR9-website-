@@ -23,11 +23,11 @@ export default function Home() {
       <Element name="interface-features" />
       <InterfaceFeatures />
       <InterfaceFeatures2 />
+      <Element name="databases" />
       <DatabasesModule />
       <DatabasesModule2 />
       <QueriesModule />
       <QueriesModule2 />
-      <Element name="aal" />
 
     </div>
   )

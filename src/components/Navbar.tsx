@@ -38,13 +38,13 @@ export default function Navbar() {
             <li><ScrollLink
               className="scroll-link" 
               activeClass="active" 
-              to="aal"
+              to="databases"
               smooth={true}
               duration={500}
               spy={true}
               offset={-100}
               >
-              Architecture & Logic
+              Databases
             </ScrollLink></li>
           <li><ScrollLink
               className="scroll-link" 

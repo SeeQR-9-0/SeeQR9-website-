@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/Home.css'
 import { Link, Routes, Route} from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
 import IntroModule from '../components/IntroModule';
 import GettingStarted from '../components/GettingStarted';
 import InterfaceFeatures from '../components/InterfaceFeatures';

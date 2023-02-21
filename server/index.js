@@ -11,13 +11,6 @@ app.use(express.static('public'));
 
 
 
-
-
-
-
-
-
-
 /**
  * 404 handler
  */

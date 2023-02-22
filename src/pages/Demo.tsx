@@ -11,8 +11,11 @@ import DatabasesModule2 from '../components/DatabasesModule2';
 import QueriesModule from '../components/QueriesModule';
 import { Element } from 'react-scroll';
 import QueriesModule2 from '../components/QueriesModule2';
+import DataModule from '../components/DataModule';
+import DataModule2 from '../components/DataModule2';
+import CompareModule from '../components/CompareModule';
 
-export default function Home() {
+export default function Demo() {
   return (
     <div className="Home">
       <Element name="home" />
@@ -27,7 +30,9 @@ export default function Home() {
       <DatabasesModule2 />
       <QueriesModule />
       <QueriesModule2 />
-
+      <DataModule />
+      <DataModule2 />
+      <CompareModule />
     </div>
   )
 }

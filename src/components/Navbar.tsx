@@ -62,28 +62,13 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <ScrollLink
-              activeClass="active"
-              to="home"
-              smooth={true}
-              duration={500}
-              spy={true}
-              offset={-100}
-            >
-              Home
-            </ScrollLink>
+            <Link to="/">Home</Link>
           </li>
           <li>
-          <ScrollLink
-              activeClass="active"
-              to="team"
-              smooth={true}
-              duration={500}
-              spy={true}
-              offset={-100}
-            >
-              Team
-            </ScrollLink>
+            <Link to="/demo">Demo</Link>
+          </li>
+          <li>
+            <Link to="/team">Team</Link>
           </li>
           <li>
             <Link to="https://github.com/">

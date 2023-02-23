@@ -18,8 +18,7 @@ import CompareModule from '../components/CompareModule';
 export default function Demo() {
   return (
     <div className="Home">
-      <Element name="home" />
-      <IntroModule />
+      {/* <Element name="home" /> */}
       <Element name="getting-started" />
       <GettingStarted />
       <Element name="interface-features" />

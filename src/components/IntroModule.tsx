@@ -8,7 +8,7 @@ export default function IntroModule() {
           <div className="intro-text">
             <h2 style={{ fontSize: "90px", fontWeight: "700" }}>SeeQR</h2>
             <h3 style={{ fontSize: "30px", fontWeight: "600" }}>
-              A SQL database testing tool.
+              A SQL database efficiency testing tool.
             </h3>
             <p>
               SeeQR is a <b>convenient one-stop shop</b> for efficient SQL

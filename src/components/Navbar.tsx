@@ -13,7 +13,9 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="left-nav">
         <img src="logo_monochrome.png" className="logo" alt="logo"></img>
+        <Link style={{textDecoration:'none', color:'black'}} to="/">
         <h1>SeeQR</h1>
+        </Link>
       </div>
       {isDemoPage && (
         <div className="center-nav">

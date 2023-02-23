@@ -1,4 +1,5 @@
 import React from 'react'
+import DownloadModule from '../components/DownloadModule';
 // import {Banner} from '../components/Banner'
 import IntroModule from '../components/IntroModule'
 import '../styles/Home.css'
@@ -43,6 +44,7 @@ export default function Home() {
     <div className="Home">
       <IntroModule />
       {/* <Banner images = {images} speed = {50000} /> */}
+      <DownloadModule />
     </div>
   );
 }

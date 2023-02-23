@@ -1,0 +1,39 @@
+.download-module {
+  /* padding-top: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #84A98C;
+}
+
+.download-button {
+  margin: 0 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.download-button:hover {
+  transform: scale(1.1);
+}
+
+.download-button img {
+  height: 50px;
+}
+
+.dl-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+
+.download-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px;
+}

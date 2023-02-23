@@ -9,14 +9,16 @@ import './styles/Home.css';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/demo" element={<Demo />} />
-        <Route path="/team" element={<Team />} />
-      </Routes>
-    </>
+      <div className="routes-body">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/demo" element={<Demo />} />
+          <Route path="/team" element={<Team />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 

@@ -15,7 +15,7 @@ export default function CompareModule() {
       </div>
       <div className="RContainer">
         <div className="applaunch-text" style={{ padding: "1rem 3rem" }}>
-        <h1 style={{paddingBottom:'1rem'}}>Compare</h1>
+          <h1 style={{ paddingBottom: "1rem" }}>Compare</h1>
           <p>
             Click on the 'bar graph' icon at the top of the sidebar to get to
             the 'Compare Queries' view.

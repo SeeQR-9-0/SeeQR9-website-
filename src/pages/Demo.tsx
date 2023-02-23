@@ -21,16 +21,19 @@ export default function Demo() {
       {/* <Element name="home" /> */}
       <Element name="getting-started" />
       <GettingStarted />
-      <Element name="interface-features" />
+      <Element name="application-launch" />
       <InterfaceFeatures />
       <InterfaceFeatures2 />
       <Element name="databases" />
       <DatabasesModule />
       <DatabasesModule2 />
+      <Element name="queries" />
       <QueriesModule />
       <QueriesModule2 />
+      <Element name="data" />
       <DataModule />
       <DataModule2 />
+      <Element name="compare" />
       <CompareModule />
     </div>
   )

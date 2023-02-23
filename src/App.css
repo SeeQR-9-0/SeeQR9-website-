@@ -1,19 +1,17 @@
-.App {
-  text-align: center;
-  
-}
-.App::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
-::-webkit-scrollbar {
-  display: none;
+.routes-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
 
@@ -23,7 +21,7 @@ body {
 
 p {
   line-height: 2;
-  font-size: 17;
+  font-size: 17px;
   font-weight: 400;
   padding-bottom: 1rem;
 }

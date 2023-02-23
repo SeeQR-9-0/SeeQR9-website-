@@ -1,4 +1,14 @@
+.Banner {
+  width: 100%;
+}
 
+#built {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+}
 
 .inner {
   width: 100%;

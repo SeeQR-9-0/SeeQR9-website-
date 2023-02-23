@@ -4,7 +4,7 @@ export default function DatabasesModule() {
   return (
     <div className="module">
       <div className="RContainer">
-        <div className="applaunch-text" style={{padding: '4rem 3rem'}}>
+        <div className="applaunch-text" style={{ padding: "4rem 3rem" }}>
           {/* <p>
             Users can also generate large amounts of foreign-key compliant dummy
             data for the selected table in the current database. Currently
@@ -18,7 +18,7 @@ export default function DatabasesModule() {
             <li>DATE</li>
           </ul> */}
           <div>
-            <h3 style={{paddingBottom:'1rem'}}>Create/Edit Database (currently in beta)</h3>
+            <h3 style={{ paddingBottom: "1rem" }}>Create/Edit Database</h3>
             <p>
               Users can create a new database from scratch by clicking the{" "}
               <b>Create New Database</b> button at the bottom of the sidebar.

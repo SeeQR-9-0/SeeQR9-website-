@@ -1,33 +1,50 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import DownloadModule from '../components/DownloadModule';
+// import {Banner} from '../components/Banner'
+import IntroModule from '../components/IntroModule'
 import '../styles/Home.css'
-import { Link, Routes, Route} from 'react-router-dom';
-import IntroModule from '../components/IntroModule';
-import GettingStarted from '../components/GettingStarted';
-import InterfaceFeatures from '../components/InterfaceFeatures';
-import InterfaceFeatures2 from '../components/InterfaceFeatures2';
-import DatabasesModule from '../components/DatabasesModule';
-import DatabasesModule2 from '../components/DatabasesModule2';
-import QueriesModule from '../components/QueriesModule';
-import { Element } from 'react-scroll';
-import QueriesModule2 from '../components/QueriesModule2';
 
 export default function Home() {
+
+  <div className="built-with">
+    {/* add icons */}
+    <li>Electron</li>
+    <h3 style={{ marginBottom: "0px" }}>Built With</h3>
+    <li>React</li>
+    <li>Typescript</li>
+    <li>PostgreSQL</li>
+    <li>MySQL</li>
+    <li>Styled-components</li>
+    <li>Material-UI</li>
+    <li>React-Flow</li>
+    <li>Chart.js</li>
+    <li>Faker.js</li>
+    <li>CodeMirror</li>
+  </div>;
+
+    const images = [
+      "Electron",
+      "React",
+      "Typescript",
+      "PostgreSQL",
+      "MySQL",
+      "Styled-components",
+      "Material-UI",
+      "React-Flow",
+      "Chart.js",
+      "Faker.js",
+      "CodeMirror",
+    ].map((image, idx) => ({
+      id: idx,
+      image,
+    }));
+
+
   return (
     <div className="Home">
-      <Element name="home" />
       <IntroModule />
-      <Element name="getting-started" />
-      <GettingStarted />
-      <Element name="interface-features" />
-      <InterfaceFeatures />
-      <InterfaceFeatures2 />
-      <Element name="databases" />
-      <DatabasesModule />
-      <DatabasesModule2 />
-      <QueriesModule />
-      <QueriesModule2 />
-
+      {/* <Banner images = {images} speed = {50000} /> */}
+      <DownloadModule />
     </div>
-  )
+  );
 }
